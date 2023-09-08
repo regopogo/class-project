@@ -8,6 +8,9 @@ module.exports = {
         'heebo': ['Heebo', 'sans-serif'],
 
       },
+      colors : {
+        "primary" : "#0bbbcc",
+      }
     },
   },
   plugins: [],
