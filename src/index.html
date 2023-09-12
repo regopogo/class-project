@@ -1,13 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../dist/output.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="../dist/output.css">
+   <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
 </head>
-<body>
- <h1 class="text-xl font-heebo underline">Tailwind setup</h1>
+
+<body class="font-nunito">
+   <nav class=" mx-auto mt-14 font-bold ml-10 text-5xl ">
+      <section class="flex justify-between items-center ">
+         <!-- navigation -->
+         <div class="flex items-center text-7xl  gap-x-2 text-blue-600">
+            <i class="ph ph-notebook "></i>
+            <h1 class="">eLEARNING</h1>
+         </div>
+         <div class="gap-x-10 flex items-center ">
+            <div class="">
+               <a class="px-5  hover:text-blue-600  " href="#">HOME</a>
+               <a class="px-5  hover:text-blue-600 " href="#">ABOUT</a>
+               <a class="px-5  hover:text-blue-600 " href="#">COURSES</a>
+               <a class="px-5  hover:text-blue-600 " href="#">PAGES</a>
+               <a class="px-5  hover:text-blue-600 " href="#">CONTACT</a>
+            </div>
+            <div>
+               <a class="bg-blue-400 py-[79px] px-[42px] text-center text-white" href="#">Join Now <i
+                     class="ph ph-arrow-right"></i></a>
+            </div>
+         </div>
+      </section>
+   </nav>
+
+   <section class="mt-[70px] ">
+      <div class="">
+         <div class="h-screen relative">
+            <img src="./img/carousel-2.jpg" alt="" class="w-full h-full object-cover object-center">
+            <div class="absolute top-0 left-0 w-full h-full" style="background-color: rgba(28, 32, 36, 0.7);">
+               <div class="container h-full flex items-center p-30 ml-32">
+                  <div class="">
+                     <h1 class="text-5xl text-cyan-500 font-bold">BEST ONLINE COURSES</h1>
+                     <h1 class="text-9xl font-bold text-white mt-7">The Best Online Learning</h1>
+                     <h1 class="text-9xl font-bold text-white mt-5">Platform</h1>
+                     <h1 class="text-5xl text-white mt-7">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima eaque delectus beatae saepe
+                        reprehenderit
+                     </h1>
+                     <div class="mt-14 flex gap-x-9">
+                        <button
+                           class="lg:bg-cyan-500 py-8 px-28 text-5xl rounded-3xl text-white hover:bg-cyan-700 hover:-translate-y-2 duration-300 transition-all">Read
+                           More</button>
+                        <button
+                           class="bg-white rounded-3xl py-8 px-28 text-5xl text-black hover:bg-slate-300 hover:-translate-y-2 duration-300 transition-all">Join
+                           Now</button>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+
+      </div>
+
+
+   </section>
 
 </body>
+
 </html>
